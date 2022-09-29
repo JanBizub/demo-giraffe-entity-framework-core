@@ -59,3 +59,5 @@ attachCommnetToArticleAboutGardening okComment
 attachCommnetToArticleAboutGardening noComment
 
 getComments ()
+
+System.Guid.NewGuid()
