@@ -1,0 +1,6 @@
+﻿### GET request with a header
+POST https://localhost:55784/api/postarticle
+Accept: application/json
+content-type: application/json
+
+{ "articleId":"0e497087-f289-46c6-a095-3464f86212d4","name":"Article about car maintenance","content":"Fixing cars","comments":null }
