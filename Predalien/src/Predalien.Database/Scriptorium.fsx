@@ -26,7 +26,6 @@ let addArticle (article: Article) =
     article |> db.Add |> ignore
     db.SaveChanges()
 
-
 let addComment (comment: Comment) =
     comment |> db.Add |> ignore
     db.SaveChanges()
