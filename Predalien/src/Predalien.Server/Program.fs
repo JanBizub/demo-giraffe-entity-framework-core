@@ -45,16 +45,6 @@ let configureServices (context: WebHostBuilderContext) (services: IServiceCollec
         )))
 
     ! services.AddTransient<PredalienDbContext>()
-    
-
-    // Configure JSON serialization --------------------------------------------------------------------------------------
-    // https://thoth-org.github.io/Thoth.Json/documentation/auto/json-representation.html#extra-coders
-    //let myExtra =
-    //    Extra.empty
-    //    |> Extra.withDecimal
-
-
-    //! services.AddSingleton<Json.ISerializer>(ThothSerializer(extra = myExtra))
 
     ! services.AddGiraffe()
 
